@@ -1,0 +1,109 @@
+* {
+    cursor: url(./amon\ gus.cur), pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+	background-color: #94c5a5;
+}
+
+header {
+	background-color: #ee7e4c;
+	color: #fff;
+	padding: 20px;
+}
+header h1 {
+	margin: 0;
+}
+.produto-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.produto-container li {
+    margin: 20px;
+    flex-basis: calc(50% - 210px);
+}
+h1, nav {
+    display: flex;
+}
+nav {
+    justify-content: space-evenly;
+}
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+li {
+	margin: 20px;
+	flex-basis: calc(33.33% - 40px);
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+li img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 10px;
+    box-shadow: #33333360 0px 0px 5px 5px;
+}
+li h3 {
+	font-size: 18px;
+	margin: 0;
+    text-align: center;
+}
+li p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius:0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+button:hover {
+    background-color: #666;
+    cursor: url(./cursor-head.cur);
+}
+footer {
+    background-color: #ee7e4c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+li {
+flex-basis: calc(50% - 40px);
+}
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+seletor {
+    cursor: url(./amon\ gus.cur);
+} 
